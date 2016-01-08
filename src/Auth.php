@@ -52,7 +52,7 @@ class Auth
     public function check_password($password, $hash)
     {
         // Load the password hash library
-        $this->_cpass = new CPass(-1);
+        $this->_cpass = new CPass(-1, false);
 
         // Try password
         return $this->_cpass->CheckPassword($password, $hash);
