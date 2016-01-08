@@ -1,6 +1,5 @@
 <?php
 namespace codecun\authbon;
-
 use codecun\authbon\PasswordHash as CPass;
 
 
@@ -14,7 +13,6 @@ use codecun\authbon\PasswordHash as CPass;
 class Auth
 {
     // --- ATTRIBUTES ---
-    
     private $_cpass            = null;
 
     /*==============================================================================================================================
