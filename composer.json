@@ -1,0 +1,47 @@
+{
+    "name": "codecun/authbon",
+
+    "description": "Sistema para compatibilidad bonfire y laravel",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    },
+
+    "repositories": [
+        {
+            "type"  : "git",
+            "url"   : "https://servicesapp@bitbucket.org/servicesapp/air.git"
+        }
+    ],
+
+    "require": {
+        "illuminate/database": "5.1.*@dev"
+    },
+    
+    "license": "EULA",
+    "autoload": {
+        "classmap": [
+            "src/Fecha.php",
+            "src/Header.php",
+            "src/Aerolineas.php",
+            "src/Countrys.php",
+            "src/Itinerario.php",
+            "src/Pasajero.php",
+            "src/Fechas/Usa.php"
+        ],
+        "psr-4": {
+            "servicesapp\\air\\": "src"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "Humberto Santos",
+            "email": "1201hs@gmail.com"
+        }
+    ],
+    
+    "minimum-stability": "dev",
+    "require-all": false
+}
