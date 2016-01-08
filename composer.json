@@ -7,31 +7,15 @@
             "dev-master": "1.1.x-dev"
         }
     },
-
-    "repositories": [
-        {
-            "type"  : "git",
-            "url"   : "https://servicesapp@bitbucket.org/servicesapp/air.git"
-        }
-    ],
-
-    "require": {
-        "illuminate/database": "5.1.*@dev"
-    },
     
     "license": "EULA",
     "autoload": {
         "classmap": [
-            "src/Fecha.php",
-            "src/Header.php",
-            "src/Aerolineas.php",
-            "src/Countrys.php",
-            "src/Itinerario.php",
-            "src/Pasajero.php",
-            "src/Fechas/Usa.php"
+            "src/Auth.php",
+            "src/PasswordHash.php"
         ],
         "psr-4": {
-            "servicesapp\\air\\": "src"
+            "codecun\\authbon\\": "src"
         }
     },
     
